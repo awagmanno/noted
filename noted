@@ -61,7 +61,7 @@ EOF
 }
 
 edit() {
-  open "${markdownFile}"
+  nvim "${markdownFile}"
 }
 
 loadProperties() {
@@ -122,7 +122,7 @@ NOTED_FILE_NAME_DATE_FORMAT="+%Y-%m-%d"
 NOTED_TIMESTAMP_FORMAT="+%H:%M:%S UTC"
 NOTED_TEMPLATE_FILE=""
 # keep the directory where notes are stored here
-NOTED_MARKDOWN_HOME=$HOME/Documents/notes
+NOTED_MARKDOWN_HOME=$HOME/Documents/01_Notes
 NOTED_TODO_MARKER="TODO"
 
 #
